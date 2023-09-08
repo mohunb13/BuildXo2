@@ -1,0 +1,148 @@
+body {
+  background-image: url('./website\ background\ 2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h5 {
+  color: white; 
+}
+
+.custom-navbar {
+  background-color: #643ADA; 
+  color: rgb(0, 0, 0); 
+}
+
+.btn-outline-secondary {
+  color: rgb(0, 0, 0); 
+  border-color: rgb(0, 0, 0); 
+}
+
+.btn-outline-secondary {
+  background-color: #643ADA; 
+  color: #ffffff; 
+}
+
+/* Services Start */
+
+.services .card{
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.services .card .card-body h3{
+  font-weight: 600;
+}
+.services .card .card-body{
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #649AAD;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 10px;
+  color: #000000;
+}
+
+.social-icons a:hover {
+  color: #2bf95b;
+}
+
+@media (max-width: 767px) {
+  .social-icons {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+.about .card{
+  border-radius: 10px;
+}
+.about .card img{
+  border-radius: 10px;
+}
+.about h2{
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.about p{
+  font-weight: 500;
+}
+#about-btn{
+  width: 150px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  background: #03e4d1;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 550;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#about-btn:hover{
+  width: 170px;
+}
+@media (max-width:765px){
+  .about{
+      padding: 0;
+  }
+}
+
+.about .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about .card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.about .card-text {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* About End */
+
+
